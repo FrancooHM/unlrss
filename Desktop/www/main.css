@@ -1,0 +1,9 @@
+body {
+	background: black;
+}
+
+#back {
+	display: none;
+	margin-top: 200px;
+	text-align: center;
+}
