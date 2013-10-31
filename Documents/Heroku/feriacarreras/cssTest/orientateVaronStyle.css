@@ -1,0 +1,24 @@
+/* General Styles */
+
+html, body {color:#FFFFFF; height:100%; width:100%; margin:0px; font-family:Arial, Helvetica, sans-serif;text-align: center; font-size: 40px}	
+body{background-image: url("imagenes/juego.jpg");}
+/* Main Content */
+
+.main {width: 0 auto; height: 100%; text-align: center; }
+
+/* Content */
+
+#contenedorPares{height: 100%;width:100%;}
+
+/* Content buttons */
+		#contenedorPares h2 {height:50%; width: 0px;  margin:0; clear: both; display:none;}
+		#contenedorPares h3 {display:none;}
+
+
+/* Content buttons */
+/* Hover */
+		#contenedorPares h2:hover {text-shadow: 3px 3px #0084A9;}
+/* Center */
+		.center {display:table-cell; vertical-align: middle}
+
+
