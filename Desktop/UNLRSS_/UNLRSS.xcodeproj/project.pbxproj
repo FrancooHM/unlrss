@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A11C327918DE307C00ADDD9A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11C327818DE307C00ADDD9A /* CoreData.framework */; };
+		A11FC1D518EE2B6000395355 /* icon_unl_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A11FC1D218EE2B6000395355 /* icon_unl_48.png */; };
+		A11FC1D618EE2B6000395355 /* icon_unl_78.png in Resources */ = {isa = PBXBuildFile; fileRef = A11FC1D318EE2B6000395355 /* icon_unl_78.png */; };
+		A11FC1D718EE2B6000395355 /* icon_unl_96.png in Resources */ = {isa = PBXBuildFile; fileRef = A11FC1D418EE2B6000395355 /* icon_unl_96.png */; };
+		A11FC1DD18EE36E900395355 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11FC1DC18EE36E900395355 /* TabBarViewController.m */; };
+		A14953CB186B81790096C44A /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953B9186B81790096C44A /* AFHTTPRequestOperation.m */; };
+		A14953CC186B81790096C44A /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953BB186B81790096C44A /* AFHTTPRequestOperationManager.m */; };
+		A14953CD186B81790096C44A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953BD186B81790096C44A /* AFHTTPSessionManager.m */; };
+		A14953CE186B81790096C44A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953C0186B81790096C44A /* AFNetworkReachabilityManager.m */; };
+		A14953CF186B81790096C44A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953C2186B81790096C44A /* AFSecurityPolicy.m */; };
+		A14953D0186B81790096C44A /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953C4186B81790096C44A /* AFURLConnectionOperation.m */; };
+		A14953D1186B81790096C44A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953C6186B81790096C44A /* AFURLRequestSerialization.m */; };
+		A14953D2186B81790096C44A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953C8186B81790096C44A /* AFURLResponseSerialization.m */; };
+		A14953D3186B81790096C44A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953CA186B81790096C44A /* AFURLSessionManager.m */; };
+		A14953D6186B97270096C44A /* UNLRSSCienciaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953D5186B97270096C44A /* UNLRSSCienciaViewController.m */; };
+		A14953D9186B97B30096C44A /* UNLRSSCulturaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953D8186B97B30096C44A /* UNLRSSCulturaViewController.m */; };
+		A14953DC186B97FA0096C44A /* UNLRSSEducacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953DB186B97FA0096C44A /* UNLRSSEducacionViewController.m */; };
+		A14953DF186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953DE186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.m */; };
+		A14953E2186B98530096C44A /* UNLRSSInternacionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14953E1186B98530096C44A /* UNLRSSInternacionalViewController.m */; };
+		A15B2E0A18BF9122005F8A89 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15B2E0918BF9122005F8A89 /* Social.framework */; };
+		A186AC62186A181E00632B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC61186A181E00632B21 /* Foundation.framework */; };
+		A186AC64186A181E00632B21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC63186A181E00632B21 /* CoreGraphics.framework */; };
+		A186AC66186A181E00632B21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC65186A181E00632B21 /* UIKit.framework */; };
+		A186AC6C186A181E00632B21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A186AC6A186A181E00632B21 /* InfoPlist.strings */; };
+		A186AC6E186A181E00632B21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A186AC6D186A181E00632B21 /* main.m */; };
+		A186AC72186A181E00632B21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A186AC71186A181E00632B21 /* AppDelegate.m */; };
+		A186AC75186A181E00632B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A186AC73186A181E00632B21 /* Main.storyboard */; };
+		A186AC7D186A181E00632B21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A186AC7C186A181E00632B21 /* Images.xcassets */; };
+		A186AC84186A181E00632B21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC83186A181E00632B21 /* XCTest.framework */; };
+		A186AC85186A181E00632B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC61186A181E00632B21 /* Foundation.framework */; };
+		A186AC86186A181E00632B21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A186AC65186A181E00632B21 /* UIKit.framework */; };
+		A186AC8E186A181E00632B21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A186AC8C186A181E00632B21 /* InfoPlist.strings */; };
+		A186AC90186A181E00632B21 /* UNLRSSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A186AC8F186A181E00632B21 /* UNLRSSTests.m */; };
+		A19CAE8218AF60E90051731F /* RssService.m in Sources */ = {isa = PBXBuildFile; fileRef = A19CAE8118AF60E90051731F /* RssService.m */; };
+		A1F0F91B186BC0080035B881 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F903186BC0080035B881 /* NSObject+SBJson.m */; };
+		A1F0F91C186BC0080035B881 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F906186BC0080035B881 /* SBJsonParser.m */; };
+		A1F0F91D186BC0080035B881 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F908186BC0080035B881 /* SBJsonStreamParser.m */; };
+		A1F0F91E186BC0080035B881 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F90A186BC0080035B881 /* SBJsonStreamParserAccumulator.m */; };
+		A1F0F91F186BC0080035B881 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F90C186BC0080035B881 /* SBJsonStreamParserAdapter.m */; };
+		A1F0F920186BC0080035B881 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F90E186BC0080035B881 /* SBJsonStreamParserState.m */; };
+		A1F0F921186BC0080035B881 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F910186BC0080035B881 /* SBJsonStreamWriter.m */; };
+		A1F0F922186BC0080035B881 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F912186BC0080035B881 /* SBJsonStreamWriterAccumulator.m */; };
+		A1F0F923186BC0080035B881 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F914186BC0080035B881 /* SBJsonStreamWriterState.m */; };
+		A1F0F924186BC0080035B881 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F916186BC0080035B881 /* SBJsonTokeniser.m */; };
+		A1F0F925186BC0080035B881 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F918186BC0080035B881 /* SBJsonUTF8Stream.m */; };
+		A1F0F926186BC0080035B881 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F0F91A186BC0080035B881 /* SBJsonWriter.m */; };
+		A1F8D2CB18B498A600D7FB95 /* showNoticesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F8D2CA18B498A600D7FB95 /* showNoticesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A186AC87186A181E00632B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A186AC56186A181E00632B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A186AC5D186A181E00632B21;
+			remoteInfo = UNLRSS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A11C327818DE307C00ADDD9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A11FC1D218EE2B6000395355 /* icon_unl_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_unl_48.png; sourceTree = "<group>"; };
+		A11FC1D318EE2B6000395355 /* icon_unl_78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_unl_78.png; sourceTree = "<group>"; };
+		A11FC1D418EE2B6000395355 /* icon_unl_96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_unl_96.png; sourceTree = "<group>"; };
+		A11FC1DB18EE36E900395355 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		A11FC1DC18EE36E900395355 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		A14953B8186B81790096C44A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A14953B9186B81790096C44A /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A14953BA186B81790096C44A /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A14953BB186B81790096C44A /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A14953BC186B81790096C44A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A14953BD186B81790096C44A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A14953BE186B81790096C44A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A14953BF186B81790096C44A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A14953C0186B81790096C44A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A14953C1186B81790096C44A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A14953C2186B81790096C44A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A14953C3186B81790096C44A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A14953C4186B81790096C44A /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A14953C5186B81790096C44A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A14953C6186B81790096C44A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A14953C7186B81790096C44A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A14953C8186B81790096C44A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A14953C9186B81790096C44A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A14953CA186B81790096C44A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A14953D4186B97270096C44A /* UNLRSSCienciaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNLRSSCienciaViewController.h; sourceTree = "<group>"; };
+		A14953D5186B97270096C44A /* UNLRSSCienciaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNLRSSCienciaViewController.m; sourceTree = "<group>"; };
+		A14953D7186B97B30096C44A /* UNLRSSCulturaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNLRSSCulturaViewController.h; sourceTree = "<group>"; };
+		A14953D8186B97B30096C44A /* UNLRSSCulturaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNLRSSCulturaViewController.m; sourceTree = "<group>"; };
+		A14953DA186B97FA0096C44A /* UNLRSSEducacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNLRSSEducacionViewController.h; sourceTree = "<group>"; };
+		A14953DB186B97FA0096C44A /* UNLRSSEducacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNLRSSEducacionViewController.m; sourceTree = "<group>"; };
+		A14953DD186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNLRSSVidaUniversitariaViewController.h; sourceTree = "<group>"; };
+		A14953DE186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNLRSSVidaUniversitariaViewController.m; sourceTree = "<group>"; };
+		A14953E0186B98530096C44A /* UNLRSSInternacionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNLRSSInternacionalViewController.h; sourceTree = "<group>"; };
+		A14953E1186B98530096C44A /* UNLRSSInternacionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNLRSSInternacionalViewController.m; sourceTree = "<group>"; };
+		A15B2E0918BF9122005F8A89 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A15B2E1218BFBF80005F8A89 /* Configs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configs.h; sourceTree = "<group>"; };
+		A186AC5E186A181E00632B21 /* UNLRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNLRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A186AC61186A181E00632B21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A186AC63186A181E00632B21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A186AC65186A181E00632B21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A186AC69186A181E00632B21 /* UNLRSS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UNLRSS-Info.plist"; sourceTree = "<group>"; };
+		A186AC6B186A181E00632B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A186AC6D186A181E00632B21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A186AC6F186A181E00632B21 /* UNLRSS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UNLRSS-Prefix.pch"; sourceTree = "<group>"; };
+		A186AC70186A181E00632B21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A186AC71186A181E00632B21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A186AC74186A181E00632B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A186AC7C186A181E00632B21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A186AC82186A181E00632B21 /* UNLRSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UNLRSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A186AC83186A181E00632B21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A186AC8B186A181E00632B21 /* UNLRSSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UNLRSSTests-Info.plist"; sourceTree = "<group>"; };
+		A186AC8D186A181E00632B21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A186AC8F186A181E00632B21 /* UNLRSSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UNLRSSTests.m; sourceTree = "<group>"; };
+		A19CAE8018AF60E90051731F /* RssService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssService.h; sourceTree = "<group>"; };
+		A19CAE8118AF60E90051731F /* RssService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssService.m; sourceTree = "<group>"; };
+		A1F0F902186BC0080035B881 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		A1F0F903186BC0080035B881 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		A1F0F904186BC0080035B881 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		A1F0F905186BC0080035B881 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		A1F0F906186BC0080035B881 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		A1F0F907186BC0080035B881 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		A1F0F908186BC0080035B881 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		A1F0F909186BC0080035B881 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		A1F0F90A186BC0080035B881 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		A1F0F90B186BC0080035B881 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		A1F0F90C186BC0080035B881 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		A1F0F90D186BC0080035B881 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		A1F0F90E186BC0080035B881 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		A1F0F90F186BC0080035B881 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		A1F0F910186BC0080035B881 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		A1F0F911186BC0080035B881 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		A1F0F912186BC0080035B881 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		A1F0F913186BC0080035B881 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		A1F0F914186BC0080035B881 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		A1F0F915186BC0080035B881 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		A1F0F916186BC0080035B881 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		A1F0F917186BC0080035B881 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		A1F0F918186BC0080035B881 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		A1F0F919186BC0080035B881 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		A1F0F91A186BC0080035B881 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		A1F8D2C918B498A600D7FB95 /* showNoticesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showNoticesViewController.h; sourceTree = "<group>"; };
+		A1F8D2CA18B498A600D7FB95 /* showNoticesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showNoticesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A186AC5B186A181E00632B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11C327918DE307C00ADDD9A /* CoreData.framework in Frameworks */,
+				A15B2E0A18BF9122005F8A89 /* Social.framework in Frameworks */,
+				A186AC64186A181E00632B21 /* CoreGraphics.framework in Frameworks */,
+				A186AC66186A181E00632B21 /* UIKit.framework in Frameworks */,
+				A186AC62186A181E00632B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A186AC7F186A181E00632B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A186AC84186A181E00632B21 /* XCTest.framework in Frameworks */,
+				A186AC86186A181E00632B21 /* UIKit.framework in Frameworks */,
+				A186AC85186A181E00632B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A11FC1CF18EE28C600395355 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11FC1D218EE2B6000395355 /* icon_unl_48.png */,
+				A11FC1D318EE2B6000395355 /* icon_unl_78.png */,
+				A11FC1D418EE2B6000395355 /* icon_unl_96.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A14953B7186B81090096C44A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A14953B8186B81790096C44A /* AFHTTPRequestOperation.h */,
+				A14953B9186B81790096C44A /* AFHTTPRequestOperation.m */,
+				A14953BA186B81790096C44A /* AFHTTPRequestOperationManager.h */,
+				A14953BB186B81790096C44A /* AFHTTPRequestOperationManager.m */,
+				A14953BC186B81790096C44A /* AFHTTPSessionManager.h */,
+				A14953BD186B81790096C44A /* AFHTTPSessionManager.m */,
+				A14953BE186B81790096C44A /* AFNetworking.h */,
+				A14953BF186B81790096C44A /* AFNetworkReachabilityManager.h */,
+				A14953C0186B81790096C44A /* AFNetworkReachabilityManager.m */,
+				A14953C1186B81790096C44A /* AFSecurityPolicy.h */,
+				A14953C2186B81790096C44A /* AFSecurityPolicy.m */,
+				A14953C3186B81790096C44A /* AFURLConnectionOperation.h */,
+				A14953C4186B81790096C44A /* AFURLConnectionOperation.m */,
+				A14953C5186B81790096C44A /* AFURLRequestSerialization.h */,
+				A14953C6186B81790096C44A /* AFURLRequestSerialization.m */,
+				A14953C7186B81790096C44A /* AFURLResponseSerialization.h */,
+				A14953C8186B81790096C44A /* AFURLResponseSerialization.m */,
+				A14953C9186B81790096C44A /* AFURLSessionManager.h */,
+				A14953CA186B81790096C44A /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A15B2E1118BFBF4B005F8A89 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A14953D4186B97270096C44A /* UNLRSSCienciaViewController.h */,
+				A14953D5186B97270096C44A /* UNLRSSCienciaViewController.m */,
+				A14953D7186B97B30096C44A /* UNLRSSCulturaViewController.h */,
+				A14953D8186B97B30096C44A /* UNLRSSCulturaViewController.m */,
+				A14953DA186B97FA0096C44A /* UNLRSSEducacionViewController.h */,
+				A14953DB186B97FA0096C44A /* UNLRSSEducacionViewController.m */,
+				A14953DD186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.h */,
+				A14953DE186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.m */,
+				A14953E0186B98530096C44A /* UNLRSSInternacionalViewController.h */,
+				A14953E1186B98530096C44A /* UNLRSSInternacionalViewController.m */,
+				A1F8D2C918B498A600D7FB95 /* showNoticesViewController.h */,
+				A1F8D2CA18B498A600D7FB95 /* showNoticesViewController.m */,
+				A11FC1DB18EE36E900395355 /* TabBarViewController.h */,
+				A11FC1DC18EE36E900395355 /* TabBarViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A186AC55186A181E00632B21 = {
+			isa = PBXGroup;
+			children = (
+				A186AC67186A181E00632B21 /* UNLRSS */,
+				A186AC89186A181E00632B21 /* UNLRSSTests */,
+				A186AC60186A181E00632B21 /* Frameworks */,
+				A186AC5F186A181E00632B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A186AC5F186A181E00632B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A186AC5E186A181E00632B21 /* UNLRSS.app */,
+				A186AC82186A181E00632B21 /* UNLRSSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A186AC60186A181E00632B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A11C327818DE307C00ADDD9A /* CoreData.framework */,
+				A15B2E0918BF9122005F8A89 /* Social.framework */,
+				A186AC61186A181E00632B21 /* Foundation.framework */,
+				A186AC63186A181E00632B21 /* CoreGraphics.framework */,
+				A186AC65186A181E00632B21 /* UIKit.framework */,
+				A186AC83186A181E00632B21 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A186AC67186A181E00632B21 /* UNLRSS */ = {
+			isa = PBXGroup;
+			children = (
+				A11FC1CF18EE28C600395355 /* Resources */,
+				A15B2E1118BFBF4B005F8A89 /* Controllers */,
+				A19CAE7A18AF56250051731F /* RssServices */,
+				A1F0F87E186BB9B00035B881 /* JSON */,
+				A14953B7186B81090096C44A /* AFNetworking */,
+				A186AC70186A181E00632B21 /* AppDelegate.h */,
+				A186AC71186A181E00632B21 /* AppDelegate.m */,
+				A186AC73186A181E00632B21 /* Main.storyboard */,
+				A186AC7C186A181E00632B21 /* Images.xcassets */,
+				A186AC68186A181E00632B21 /* Supporting Files */,
+			);
+			path = UNLRSS;
+			sourceTree = "<group>";
+		};
+		A186AC68186A181E00632B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A186AC69186A181E00632B21 /* UNLRSS-Info.plist */,
+				A186AC6A186A181E00632B21 /* InfoPlist.strings */,
+				A186AC6D186A181E00632B21 /* main.m */,
+				A186AC6F186A181E00632B21 /* UNLRSS-Prefix.pch */,
+				A15B2E1218BFBF80005F8A89 /* Configs.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A186AC89186A181E00632B21 /* UNLRSSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A186AC8F186A181E00632B21 /* UNLRSSTests.m */,
+				A186AC8A186A181E00632B21 /* Supporting Files */,
+			);
+			path = UNLRSSTests;
+			sourceTree = "<group>";
+		};
+		A186AC8A186A181E00632B21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A186AC8B186A181E00632B21 /* UNLRSSTests-Info.plist */,
+				A186AC8C186A181E00632B21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A19CAE7A18AF56250051731F /* RssServices */ = {
+			isa = PBXGroup;
+			children = (
+				A19CAE8018AF60E90051731F /* RssService.h */,
+				A19CAE8118AF60E90051731F /* RssService.m */,
+			);
+			name = RssServices;
+			sourceTree = "<group>";
+		};
+		A1F0F87E186BB9B00035B881 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				A1F0F902186BC0080035B881 /* NSObject+SBJson.h */,
+				A1F0F903186BC0080035B881 /* NSObject+SBJson.m */,
+				A1F0F904186BC0080035B881 /* SBJson.h */,
+				A1F0F905186BC0080035B881 /* SBJsonParser.h */,
+				A1F0F906186BC0080035B881 /* SBJsonParser.m */,
+				A1F0F907186BC0080035B881 /* SBJsonStreamParser.h */,
+				A1F0F908186BC0080035B881 /* SBJsonStreamParser.m */,
+				A1F0F909186BC0080035B881 /* SBJsonStreamParserAccumulator.h */,
+				A1F0F90A186BC0080035B881 /* SBJsonStreamParserAccumulator.m */,
+				A1F0F90B186BC0080035B881 /* SBJsonStreamParserAdapter.h */,
+				A1F0F90C186BC0080035B881 /* SBJsonStreamParserAdapter.m */,
+				A1F0F90D186BC0080035B881 /* SBJsonStreamParserState.h */,
+				A1F0F90E186BC0080035B881 /* SBJsonStreamParserState.m */,
+				A1F0F90F186BC0080035B881 /* SBJsonStreamWriter.h */,
+				A1F0F910186BC0080035B881 /* SBJsonStreamWriter.m */,
+				A1F0F911186BC0080035B881 /* SBJsonStreamWriterAccumulator.h */,
+				A1F0F912186BC0080035B881 /* SBJsonStreamWriterAccumulator.m */,
+				A1F0F913186BC0080035B881 /* SBJsonStreamWriterState.h */,
+				A1F0F914186BC0080035B881 /* SBJsonStreamWriterState.m */,
+				A1F0F915186BC0080035B881 /* SBJsonTokeniser.h */,
+				A1F0F916186BC0080035B881 /* SBJsonTokeniser.m */,
+				A1F0F917186BC0080035B881 /* SBJsonUTF8Stream.h */,
+				A1F0F918186BC0080035B881 /* SBJsonUTF8Stream.m */,
+				A1F0F919186BC0080035B881 /* SBJsonWriter.h */,
+				A1F0F91A186BC0080035B881 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A186AC5D186A181E00632B21 /* UNLRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A186AC93186A181E00632B21 /* Build configuration list for PBXNativeTarget "UNLRSS" */;
+			buildPhases = (
+				A186AC5A186A181E00632B21 /* Sources */,
+				A186AC5B186A181E00632B21 /* Frameworks */,
+				A186AC5C186A181E00632B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNLRSS;
+			productName = UNLRSS;
+			productReference = A186AC5E186A181E00632B21 /* UNLRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A186AC81186A181E00632B21 /* UNLRSSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A186AC96186A181E00632B21 /* Build configuration list for PBXNativeTarget "UNLRSSTests" */;
+			buildPhases = (
+				A186AC7E186A181E00632B21 /* Sources */,
+				A186AC7F186A181E00632B21 /* Frameworks */,
+				A186AC80186A181E00632B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A186AC88186A181E00632B21 /* PBXTargetDependency */,
+			);
+			name = UNLRSSTests;
+			productName = UNLRSSTests;
+			productReference = A186AC82186A181E00632B21 /* UNLRSSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A186AC56186A181E00632B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Franco Agustín Rabaglia";
+				TargetAttributes = {
+					A186AC81186A181E00632B21 = {
+						TestTargetID = A186AC5D186A181E00632B21;
+					};
+				};
+			};
+			buildConfigurationList = A186AC59186A181E00632B21 /* Build configuration list for PBXProject "UNLRSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A186AC55186A181E00632B21;
+			productRefGroup = A186AC5F186A181E00632B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A186AC5D186A181E00632B21 /* UNLRSS */,
+				A186AC81186A181E00632B21 /* UNLRSSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A186AC5C186A181E00632B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11FC1D518EE2B6000395355 /* icon_unl_48.png in Resources */,
+				A186AC7D186A181E00632B21 /* Images.xcassets in Resources */,
+				A11FC1D718EE2B6000395355 /* icon_unl_96.png in Resources */,
+				A186AC6C186A181E00632B21 /* InfoPlist.strings in Resources */,
+				A186AC75186A181E00632B21 /* Main.storyboard in Resources */,
+				A11FC1D618EE2B6000395355 /* icon_unl_78.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A186AC80186A181E00632B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A186AC8E186A181E00632B21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A186AC5A186A181E00632B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14953CF186B81790096C44A /* AFSecurityPolicy.m in Sources */,
+				A1F0F922186BC0080035B881 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				A186AC72186A181E00632B21 /* AppDelegate.m in Sources */,
+				A14953DF186B982B0096C44A /* UNLRSSVidaUniversitariaViewController.m in Sources */,
+				A14953E2186B98530096C44A /* UNLRSSInternacionalViewController.m in Sources */,
+				A14953CC186B81790096C44A /* AFHTTPRequestOperationManager.m in Sources */,
+				A1F0F91E186BC0080035B881 /* SBJsonStreamParserAccumulator.m in Sources */,
+				A14953D0186B81790096C44A /* AFURLConnectionOperation.m in Sources */,
+				A1F0F921186BC0080035B881 /* SBJsonStreamWriter.m in Sources */,
+				A14953CB186B81790096C44A /* AFHTTPRequestOperation.m in Sources */,
+				A1F0F91C186BC0080035B881 /* SBJsonParser.m in Sources */,
+				A1F0F925186BC0080035B881 /* SBJsonUTF8Stream.m in Sources */,
+				A1F0F924186BC0080035B881 /* SBJsonTokeniser.m in Sources */,
+				A14953D6186B97270096C44A /* UNLRSSCienciaViewController.m in Sources */,
+				A186AC6E186A181E00632B21 /* main.m in Sources */,
+				A14953D1186B81790096C44A /* AFURLRequestSerialization.m in Sources */,
+				A19CAE8218AF60E90051731F /* RssService.m in Sources */,
+				A14953CD186B81790096C44A /* AFHTTPSessionManager.m in Sources */,
+				A14953D9186B97B30096C44A /* UNLRSSCulturaViewController.m in Sources */,
+				A14953CE186B81790096C44A /* AFNetworkReachabilityManager.m in Sources */,
+				A14953DC186B97FA0096C44A /* UNLRSSEducacionViewController.m in Sources */,
+				A14953D2186B81790096C44A /* AFURLResponseSerialization.m in Sources */,
+				A1F0F923186BC0080035B881 /* SBJsonStreamWriterState.m in Sources */,
+				A1F0F920186BC0080035B881 /* SBJsonStreamParserState.m in Sources */,
+				A11FC1DD18EE36E900395355 /* TabBarViewController.m in Sources */,
+				A1F0F91B186BC0080035B881 /* NSObject+SBJson.m in Sources */,
+				A1F0F91F186BC0080035B881 /* SBJsonStreamParserAdapter.m in Sources */,
+				A14953D3186B81790096C44A /* AFURLSessionManager.m in Sources */,
+				A1F8D2CB18B498A600D7FB95 /* showNoticesViewController.m in Sources */,
+				A1F0F91D186BC0080035B881 /* SBJsonStreamParser.m in Sources */,
+				A1F0F926186BC0080035B881 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A186AC7E186A181E00632B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A186AC90186A181E00632B21 /* UNLRSSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A186AC88186A181E00632B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A186AC5D186A181E00632B21 /* UNLRSS */;
+			targetProxy = A186AC87186A181E00632B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A186AC6A186A181E00632B21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A186AC6B186A181E00632B21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A186AC73186A181E00632B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A186AC74186A181E00632B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A186AC8C186A181E00632B21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A186AC8D186A181E00632B21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A186AC91186A181E00632B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A186AC92186A181E00632B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A186AC94186A181E00632B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNLRSS/UNLRSS-Prefix.pch";
+				INFOPLIST_FILE = "UNLRSS/UNLRSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A186AC95186A181E00632B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNLRSS/UNLRSS-Prefix.pch";
+				INFOPLIST_FILE = "UNLRSS/UNLRSS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A186AC97186A181E00632B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UNLRSS.app/UNLRSS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNLRSS/UNLRSS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UNLRSSTests/UNLRSSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A186AC98186A181E00632B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UNLRSS.app/UNLRSS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UNLRSS/UNLRSS-Prefix.pch";
+				INFOPLIST_FILE = "UNLRSSTests/UNLRSSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A186AC59186A181E00632B21 /* Build configuration list for PBXProject "UNLRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A186AC91186A181E00632B21 /* Debug */,
+				A186AC92186A181E00632B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A186AC93186A181E00632B21 /* Build configuration list for PBXNativeTarget "UNLRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A186AC94186A181E00632B21 /* Debug */,
+				A186AC95186A181E00632B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A186AC96186A181E00632B21 /* Build configuration list for PBXNativeTarget "UNLRSSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A186AC97186A181E00632B21 /* Debug */,
+				A186AC98186A181E00632B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A186AC56186A181E00632B21 /* Project object */;
+}
