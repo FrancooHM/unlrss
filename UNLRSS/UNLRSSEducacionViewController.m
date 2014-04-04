@@ -22,7 +22,7 @@ const int educacionLoadingCellTag = 1273;
 @property (nonatomic,strong) NSString *tempTitle;
 @property (nonatomic,strong) NSString *tempBody;
 @property (nonatomic,strong) NSString *tempDescription;
-@property (nonatomic,strong) UIImage *tempImage;
+@property (nonatomic,strong) NSString *tempImage;
 
 @end
 
@@ -222,21 +222,33 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     // here we get the cell from the selected row.
     UITableViewCell *selectedCell=[tableView cellForRowAtIndexPath:indexPath];
     
-    
-    //The title and description were able in the self cell.
-    self.tempTitle = selectedCell.textLabel.text;
-    self.tempDescription = selectedCell.detailTextLabel.text;
-    
-    //But the body is just only in the itemsArray, so with the indexPath.row (parameter of the function) i'll recover it.
-    
-    //Extracting the notice of the array.
-    NSDictionary *info = [self.itemsList objectAtIndex:indexPath.row];
-    
-    //Extracting the body of the notice.
-    NSString *notice = info[ItemKeyBody];
-    
-    self.tempBody = notice;
-    self.tempImage = info[ItemKeyImage];
+    if (indexPath.row < [self.itemsList count]) {
+        //The title and description were able in the self cell.
+        self.tempTitle = selectedCell.textLabel.text;
+        self.tempDescription = selectedCell.detailTextLabel.text;
+        
+        //But the body is just only in the itemsArray, so with the indexPath.row (parameter of the function) i'll recover it.
+        
+        //Extracting the notice of the array.
+        NSDictionary *info = [self.itemsList objectAtIndex:indexPath.row];
+        
+        //Extracting the body of the notice.
+        NSString *notice = info[ItemKeyBody];
+        
+        self.tempBody = notice;
+        self.tempImage = info[ItemKeyImage];
+        
+        //This line of code literally performs the segue. The script execution is defined in the the prepareForSegue function.
+        
+    }
+    else{
+        
+        self.tempTitle = @"El server no responde :[";
+        self.tempDescription = @"";
+        self.tempBody = @"";
+        self.tempImage = @"";
+        
+    }
     
     //This line of code literally performs the segue. The script execution is defined in the the prepareForSegue function.
     

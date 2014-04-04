@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleTextLabel;
 @property (weak, nonatomic) IBOutlet UILabel *descriptionTextLabel;
 @property (weak, nonatomic) IBOutlet UIWebView *bodyHTMLView;
+@property (weak, nonatomic) IBOutlet UIWebView *imageHTMLView;
 @property (nonatomic,strong) NSString *titleSegue;
 @property (nonatomic,strong) NSString *descriptionSegue;
 @property (nonatomic,strong) NSString *imageUrl;

@@ -20,10 +20,16 @@
     
     //Setting styles to Navigation Bar
     [[UINavigationBar appearance] setBarTintColor:aquaColor];
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTintColor: whiteColor];
+    
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = blackColor;
+    shadow.shadowOffset = shadowOffsetDefault;
+    
     [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
-                                                           [UIColor whiteColor], NSForegroundColorAttributeName,
-                                                           [UIFont fontWithName:@"HelveticaNeue" size:21.0], NSFontAttributeName, nil]];
+                                                           whiteColor, NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           boldFont, NSFontAttributeName, nil]];
     
     //Setting styles of tabBar
     

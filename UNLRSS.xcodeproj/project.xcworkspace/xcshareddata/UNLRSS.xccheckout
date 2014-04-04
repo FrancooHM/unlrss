@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>04B37E96-48BA-4601-9002-7576DEA05674</string>
+	<string>E83F1B19-47FC-44AE-8D36-87320F6745E8</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UNLRSS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>099A56EA-B79D-44CC-8930-D2E42CB31CA5</key>
-		<string>ssh://gitlab.com/FrancooHD/unlrss.git</string>
+		<key>E3C6F9F5-9838-4996-9BA8-CED39B97FCAC</key>
+		<string>https://github.com/FrancooHSL/unlrss.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UNLRSS.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>099A56EA-B79D-44CC-8930-D2E42CB31CA5</key>
+		<key>E3C6F9F5-9838-4996-9BA8-CED39B97FCAC</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://gitlab.com/FrancooHD/unlrss.git</string>
+	<string>https://github.com/FrancooHSL/unlrss.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>099A56EA-B79D-44CC-8930-D2E42CB31CA5</string>
+	<string>E3C6F9F5-9838-4996-9BA8-CED39B97FCAC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>099A56EA-B79D-44CC-8930-D2E42CB31CA5</string>
+			<string>E3C6F9F5-9838-4996-9BA8-CED39B97FCAC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>UNLRSS</string>
+			<string>unlrss</string>
 		</dict>
 	</array>
 </dict>

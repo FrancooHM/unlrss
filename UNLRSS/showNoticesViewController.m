@@ -23,6 +23,7 @@
 @synthesize descriptionTextLabel;
 @synthesize imageUrl;
 @synthesize bodyHTMLView;
+@synthesize imageHTMLView;
 @synthesize activityVC;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -47,40 +48,47 @@
     titleTextLabel.numberOfLines = 0;
     descriptionTextLabel.numberOfLines = 0;
     
-    titleTextLabel.textColor = aquaColor;
-    
     descriptionTextLabel.textColor = greyColor;
     
     //Setting content.
-    self.title = @"UNL";
+    self.title = @"UNL Media";
     self.titleTextLabel.text = self.titleSegue;
     self.descriptionTextLabel.text = self.descriptionSegue;
     
-    NSString *myDescriptionHTML = @"";
-    NSString *myImageTag = [NSString stringWithFormat:@"<img src='%@' width='%d'>", self.imageUrl, imageW];
+    [titleTextLabel setFont:boldFont];
+    
+    NSString *myImageTag = [NSString stringWithFormat:@"<html> \n"
+                            "<body><img src='%@' width='%d' style='position:absolute;left:0px;top:0px;opacity:0.75;'></body> \n"
+                            "</html>",self.imageUrl, imageW];
+    
+    NSString *myDescriptionHTML = [NSString stringWithFormat:@"<html> \n"
+                         "<head> \n"
+                         "<style type=\"text/css\"> \n"
+                         "body {font-family: \"%@\"; font-size: %d;}\n"
+                         "</style> \n"
+                         "</head> \n"
+                         "<body>%@</body> \n"
+                         "</html>", @"helvetica", 15, bodySegue];
+    
     NSLog(@"myImageTag : %@",myImageTag);
     NSLog(@"imageUrl : %@",self.imageUrl);
     
     if ([self.imageUrl  isEqual: @""]) {
-         myDescriptionHTML = [NSString stringWithFormat:@"<html> \n"
-                                       "<head> \n"
-                                       "<style type=\"text/css\"> \n"
-                                       "body {font-family: \"%@\"; font-size: %d;}\n"
-                                       "</style> \n"
-                                       "</head> \n"
-                                       "<body>%@</body> \n"
-                                       "</html>", @"helvetica", 15, bodySegue];
+
+        
+            titleTextLabel.textColor = aquaColor;
+        
+        imageHTMLView.alpha = 0;
     }
     else{
 
-        myDescriptionHTML = [NSString stringWithFormat:@"<html> \n"
-                                       "<head> \n"
-                                       "<style type=\"text/css\"> \n"
-                                       "body {font-family: \"%@\"; font-size: %d;}\n"
-                                       "</style> \n"
-                                       "</head> \n"
-                                       "<body>%@ %@</body> \n"
-                                       "</html>", @"helvetica", 15, bodySegue, myImageTag];
+        //Setting title with image
+        titleTextLabel.textColor = whiteColor;
+        imageHTMLView.alpha = 1;
+        [imageHTMLView loadHTMLString:myImageTag baseURL:nil];
+        [titleTextLabel setShadowColor:blackColor];
+        [titleTextLabel setShadowOffset: shadowOffsetDefault];
+
     }
 
     

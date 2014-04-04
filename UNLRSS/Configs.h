@@ -13,10 +13,14 @@
 #define aquaColor [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1]
 #define greyColor [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1]
 #define blackColor [UIColor colorWithRed:0 green:0 blue:0 alpha:1]
+#define whiteColor [UIColor whiteColor]
+
+#define shadowOffsetDefault CGSizeMake(0.0, 1.0)
+#define boldFont [UIFont boldSystemFontOfSize:20.0]
 
 //Sizes
 #define buttonH 50
-#define imageW 300
+#define imageW 320
 
 //Strings
 #define facebookS @"facebook"

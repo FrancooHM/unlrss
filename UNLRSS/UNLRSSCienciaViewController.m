@@ -72,11 +72,11 @@ const int cienciaLoadingCellTag = 1273;
 {
     [super viewDidLoad];
     
-    //Inicializo array vacio. (Podría ser alloc + init, pero esto es lo mismo y más careta)
+    //Init news array. (Podría ser alloc + init, pero esto es lo mismo y más careta)
     self.itemsList = [@[] mutableCopy];
     
-    //Inicializo nro de pagina.
-    //0 y 1 son consideradas ambos los numeros de la primer pagina.
+    //Init pageNumber
+    //0 and 1 is the same.
     self.pageNumber = [NSNumber numberWithInt:1];
     
     [self fetchNotices];
@@ -183,10 +183,12 @@ const int cienciaLoadingCellTag = 1273;
      // Esta funcion es la que define que hacer con las celdas en cuestion.
     if (indexPath.row < [self.itemsList count]) {
         
+        //Any cell has an new index cell.
         return [self newsCellForIndexPath:indexPath];
         
     } else {
         
+        //The last cell is a loading cell. (constantIndex).
         return [self loadingCell];
         
     }
@@ -197,8 +199,9 @@ const int cienciaLoadingCellTag = 1273;
   willDisplayCell:(UITableViewCell *)cell
 forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (cell.tag == cienciaLoadingCellTag) {
-        //pageNumber++
 
+        //If a see a loading cell -> pageNumber++ && fetchNotices
+        
         int auxNumb = [self.pageNumber intValue] + 1;
         self.pageNumber = [NSNumber numberWithInt:auxNumb + 1];
         
@@ -213,26 +216,35 @@ forRowAtIndexPath:(NSIndexPath *)indexPath {
     // here we get the cell from the selected row.
     UITableViewCell *selectedCell=[tableView cellForRowAtIndexPath:indexPath];
     
-    
-    //The title and description were able in the self cell.
-    self.tempTitle = selectedCell.textLabel.text;
-    self.tempDescription = selectedCell.detailTextLabel.text;
-    
-    //But the body is just only in the itemsArray, so with the indexPath.row (parameter of the function) i'll recover it.
-    
-    //Extracting the notice of the array.
-    NSDictionary *info = [self.itemsList objectAtIndex:indexPath.row];
-    
-    //Extracting the body of the notice.
-    NSString *notice = info[ItemKeyBody];
-    
-    self.tempBody = notice;
-    self.tempImage = info[ItemKeyImage];
-    
-    //This line of code literally performs the segue. The script execution is defined in the the prepareForSegue function.
-    
-    [self performSegueWithIdentifier:@"showNoticeSegue" sender:self];
+    if (indexPath.row < [self.itemsList count]) {
+        //The title and description were able in the self cell.
+        self.tempTitle = selectedCell.textLabel.text;
+        self.tempDescription = selectedCell.detailTextLabel.text;
+        
+        //But the body is just only in the itemsArray, so with the indexPath.row (parameter of the function) i'll recover it.
+        
+        //Extracting the notice of the array.
+        NSDictionary *info = [self.itemsList objectAtIndex:indexPath.row];
+        
+        //Extracting the body of the notice.
+        NSString *notice = info[ItemKeyBody];
+        
+        self.tempBody = notice;
+        self.tempImage = info[ItemKeyImage];
+        
+        //This line of code literally performs the segue. The script execution is defined in the the prepareForSegue function.
+        
+    }
+    else{
+        
+        self.tempTitle = @"El server no responde :[";
+        self.tempDescription = @"";
+        self.tempBody = @"";
+        self.tempImage = @"";
 
+    }
+    
+            [self performSegueWithIdentifier:@"showNoticeSegue" sender:self];
 }
 
 //This functions is used to prepare the segue for data seding.
